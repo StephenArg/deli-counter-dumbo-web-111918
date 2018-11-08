@@ -7,7 +7,7 @@ def line(array)
     statement =  "The line is currently:"
     count = 1
     for i in array
-      statement += "#{count}. #{i}"
+      statement += " #{count}. #{i}"
       count += 1
     end
     puts statement
